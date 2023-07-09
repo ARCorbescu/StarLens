@@ -17,3 +17,21 @@ mood.addEventListener("click", function (){
        root.classList.add("dark")
    }
 })
+
+function redirectToPage(page) {
+    switch (page) {
+      case 'page1':
+        window.location.href = "https://example.com/page1";
+        break;
+      case 'page2':
+        window.location.href = "https://example.com/page2";
+        break;
+      case 'page3':
+        window.location.href = "https://example.com/page3";
+        break;
+      default:
+        // Handle default case or error
+        break;
+    }
+  }
+  
